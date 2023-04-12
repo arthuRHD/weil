@@ -53,3 +53,25 @@ impl UserRepository {
         diesel::delete(users.find(user_id)).execute(conn)
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::create_connection_pool;
+
+    use super::*;
+
+    #[test]
+    fn create_user_test() {
+        let mut connection = create_connection_pool().get().unwrap();
+        let test_username = "user";
+        let test_email = "test@example.com";
+
+        let user = UserRepository::create_user(&mut connection, test_username, test_email).unwrap();
+
+        assert_eq!(user.username, test_username);
+        assert_eq!(user.email, test_email);
+
+        // Clean up: delete the user
+        UserRepository::delete_user(&mut connection, user.id).unwrap();
+    }
+}
