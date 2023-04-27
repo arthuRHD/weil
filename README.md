@@ -1,5 +1,3 @@
 # Weil
 
-Démocratie décentralisée.
-
-![logo](./assets/logo.png)
+just a user CRUD app to practice rust.
