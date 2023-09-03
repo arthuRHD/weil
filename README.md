@@ -1,21 +1,23 @@
 # Weil: Decentralized Voting System
 
-![Weil Logo](link-to-logo-image-if-any.png)
+![Weil Logo](./assets/weil-logo.png)
 
 Weil is a decentralized voting platform aiming to revolutionize national elections, making them transparent, secure, and accessible to all. Inspired by Simone Weil's commitment to social justice and her emphasis on the value of every individual, our mission is to provide a trustworthy and inclusive voting system for the digital age.
 
 ## Table of Contents
 
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contribute](#contribute)
-- [Security](#security)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Credits](#credits)
+- [Weil: Decentralized Voting System](#weil-decentralized-voting-system)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribute](#contribute)
+  - [Security](#security)
+  - [Roadmap](#roadmap)
+  - [License](#license)
+  - [Credits](#credits)
 
 ## Features
 
